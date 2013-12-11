@@ -13,6 +13,7 @@ call coffee#CoffeeSetUpVariables()
 setlocal formatoptions-=t formatoptions+=croql
 setlocal comments=:# commentstring=#\ %s
 setlocal omnifunc=javascriptcomplete#CompleteJS
+setlocal shiftwidth=2 expandtab
 
 " Create custom augroups.
 augroup CoffeeBufUpdate | augroup END
